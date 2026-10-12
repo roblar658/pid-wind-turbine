@@ -2,6 +2,9 @@
 
 PID-basert reguleringssystem i Go for maksimal effektutvinning (MPPT) fra en småskala vindmølle. Systemet estimerer vindhastighet via dynamisk differensialtrykk (pitotrør/Bernoulli), beregner optimal rotorhastighet ($\lambda_{\text{opt}}$), og doserer generatorens motmoment ($\tau_e$) ved å modulere en variabel elektrisk lastmotstand ($R_{\text{last}}$). Prosjektet visualiseres med sanntids Chart.js-telemetri og en interaktiv Three.js 3D-visning.
 
+<img width="944" height="490" alt="image" src="https://github.com/user-attachments/assets/077f7be7-4baf-46fb-b5dd-ba012b9bf8ee" />
+
+
 ---
 
 ## Matematiske modeller og formler
